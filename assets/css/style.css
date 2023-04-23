@@ -1,0 +1,98 @@
+body {
+  background-color: rgba(6, 222, 128, 0.305);
+  transition: background-color 1s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+@keyframes rotate {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+  }
+  
+  .dark-mode {
+  background-color: rgb(22, 6, 26);
+  transition: background-color 1s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .dark-mode h3{
+  color: rgb(255, 255, 255);
+  }
+  .dark-mode p {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  }
+  .dark-mode #darkMode{
+    content:url('nightModeOn.png');
+  }
+  .dark-mode #copy{
+    content:url('nightModeOnCopy.png');
+  }
+  h1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  }
+  h2 {
+  color: rgb(255, 0, 0);
+  text-align: center;
+  font-size: xx-large;
+  }
+  h3{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-family: Garamond;
+    font-weight: bold;
+    font-size: x-large;
+  }
+  h1 img {
+  margin-top: -40px;
+  }
+  p {
+  font-family: Garamond;
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+  line-height: 2;
+  color: rgb(0, 0, 0);
+  }
+  #img {
+  width: 800px;
+  height: 600px;
+  background-color: blue;
+  object-fit: none;
+  object-position: bottom;
+  border: 2px solid black;
+  }
+  #firstParagraph {
+  width: 400px;
+  height: 400px;
+  object-fit: none;
+  object-position: top right;
+  border: 2px solid black;
+  }
+  #darkMode {
+  position: sticky;
+  width: 100px;
+  height: 100px;
+  top: 10px;
+  left: 40px;
+  object-position: top left;
+  }
+  #homeButton{
+    position: static;
+    width:90px;
+    height: 90px;
+  }
+  #informazioni{
+    position: static;
+    bottom:0px;
+    left: 800px;
+    font-size: large;
+  }
+  #argomentoHome{
+    position: static;
+    object-position: center;
+  }
+  #comingSoon{
+    animation: rotate 2s linear infinite;
+    position: absolute;
+    right: 800px;
+  }
+
+  
